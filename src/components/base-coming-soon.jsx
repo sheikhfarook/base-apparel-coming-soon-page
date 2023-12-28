@@ -3,7 +3,6 @@ import Bitman from "../assets/hero-desktop.jpg";
 import arrow from "../assets/icon-arrow.svg";
 import error from "../assets/icon-error.svg";
 import bit from "../assets/hero-mobile.jpg";
-// import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useToast } from "@chakra-ui/react";
 const BaseComingSoon = () => {
@@ -103,25 +102,6 @@ const BaseComingSoon = () => {
                 </p>
               )}
             </form>
-
-            {/* <div
-              className="w-[27rem] h-[3.5rem] rounded-[1.75rem] border-2 border-[#CE9898] opacity-0.5 
-              max-sm:w-full max-sm:h-[3rem]">
-              <button
-                className="my-3.5 flex justify-between w-full text-[#CE9898] text-[1rem] font-[400] opacity-0.5
-                max-sm:text-[0.875rem] ">
-                <div className="mx-8"></div>
-                <div
-                  className="w-[6.30rem]  rounded-full  h-[3.5rem] bg-[#CE9898] relative bottom-[16px]
-                  max-sm:w-[4rem] max-sm:h-[3rem] max-sm:">
-                  <img
-                    className="m-auto py-5 max-sm:py-3.5"
-                    src={arrow}
-                    alt=""
-                  />
-                </div>
-              </button>
-            </div> */}
           </div>
         </div>
         {/* second */}
