@@ -15,8 +15,8 @@ const BaseComingSoon = () => {
   const onSubmit = (data) => {
     if (data)
       toast({
-        title: "Account created.",
-        description: "We've created your account for you.",
+        title: "congregation.",
+        description: "Details wull be shared with you very soon.",
         status: "success",
         duration: 9000,
         isClosable: false,
